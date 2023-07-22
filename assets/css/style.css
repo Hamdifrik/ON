@@ -70,6 +70,29 @@ h6 {
     transform: rotate(360deg);
   }
 }
+/*pargraphe */
+
+.yellow {
+  color: #f1c40f; 
+  font-size: 20px; 
+  font-weight: bold;
+  line-height: 1.5; 
+}
+.paragraphe-card {
+  color: blue;
+  
+  font-size: 16px;
+}
+
+
+.blue {
+  color: #3498db; 
+  font-weight: bold;
+  font-size: 20px; 
+  font-weight: bold; 
+  line-height: 1.6; 
+ 
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -110,19 +133,15 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 5px 0;  
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: #000000;  
 }
 
-#header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
+#header .logo fixed-top {
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -133,7 +152,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 80px;
 }
 
 /*--------------------------------------------------------------
@@ -166,7 +185,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  color: #fff;
+  color: #167bab;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -182,7 +201,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #47b2e4;
+  color: #f9c443;
 }
 
 .navbar .getstarted,
@@ -190,16 +209,16 @@ h6 {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 50px;
-  color: #fff;
+  color: #167bab;
   font-size: 14px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #969696;
   font-weight: 600;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #31a9e1;
+  background: #f9c443;
 }
 
 .navbar .dropdown ul {
@@ -388,6 +407,8 @@ h6 {
   width: 100%;
   height: 80vh;
   background: #37517e;
+  margin-top: 90px;
+  border-bottom: 2px solid #969696;
 }
 
 #hero .container {
@@ -634,14 +655,15 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #47b2e4;
+ 
+  color: #f1c40f;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #47b2e4;
+  border: 2px solid#f1c40f;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #47b2e4;
+  background: #f1c40f;
   color: #fff;
   text-decoration: none;
 }
@@ -848,6 +870,14 @@ section {
   background: #fff;
 }
 
+.services .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background:white;
+  
+}
+
 .services .icon-box .icon {
   margin-bottom: 10px;
 }
@@ -883,6 +913,56 @@ section {
   color: #47b2e4;
 }
 
+
+
+
+
+.services .icon-box2 {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background:#f1c40f;
+  
+}
+
+.services .icon-box2 .icon {
+  margin-bottom: 10px;
+}
+
+.services .icon-box2 .icon i {
+  color: #47b2e4;
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+.services .icon-box2 h4 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .icon-box2 h4 a {
+  color: #37517e;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box2 p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .icon-box2:hover {
+  transform: translateY(-10px);
+}
+
+.services .icon-box2:hover h4 a {
+  color: #47b2e4;
+}
+.ml-5{
+  margin-left: 23%;
+  
+}
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -898,9 +978,10 @@ section {
   font-weight: 700;
 }
 
-.cta p {
+.cta .pwhite {
   color: #fff;
 }
+
 
 .cta .cta-btn {
   font-family: "Jost", sans-serif;
@@ -1823,3 +1904,5 @@ section {
     padding-top: 4px;
   }
 }
+
+
